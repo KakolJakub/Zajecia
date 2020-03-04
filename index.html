@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+		<head>
+				<meta charset="UTF-8">
+				</head>
+<body>
+	<div id="container" style="width:500px">
+	<div id="header" style ="background-color: rgb(49, 39, 141);">
+	<h1 style ="margin-bottom:0;">Main Title of Web Page</h1></div>
+	<div id="menu" style ="background-color:rgb(1, 18, 255); height: 500px; width: 100px; float: left;"><b>Menu</b><br>HTML<br>CSS<br>JavaScript</div>
+	<div id="content" style="background-color: rgb(255, 255, 255); height:500px; width: 400px; float: left;">
+	<form action="mailto:twój_adres_poczty@domena" method="post">
+	<input name="Imię">Podaj swoje imię<br>
+	<input name="E-mail">Podaj swój email<br>
+	Podaj swoją płeć:<br>
+	<input type="radio" id ="Girl" name="Płeć" value="Kobieta"><label for="Girl">Kobieta</label>
+	<input type="radio" id="Boy" name="Płeć" value="Mężczyzna"><label for="Boy">Mężczyzna</label>
+	<br>Jaką lubisz muzykę?<br>
+	<input type="checkbox" name="Muzyka" value="Rock">Rock<br>
+	<input type="checkbox" name="Muzyka" value="Pop">Pop<br>
+	<input type="checkbox" name="Muzyka" value="Muzyka poważna">Muzyka poważna<br>
+	<input type="checkbox" name="Muzyka" value="Inna_checkbox">Inna (podaj jaka):<input name="Muzyka">
+	<br>Jakiej przeglądarki używasz?<br>
+	<select name="Przeglądarka">
+			<option selected>Internet Explorer</option>
+			<option>Netscape</option>
+			<option>Opera</option>
+			<option>Mozilla</option>
+			<option>Inna</option>
+	</select>
+	<br>Jakie znasz systemy operacyjne?<br>
+	<select name="System operacyjny" multiple size="3">
+			<option selected>Dos</option>
+			<option>Windows</option>
+			<option>Linux</option>
+			<option>Inny</option>
+	</select>
+	<br>Podaj swój komentarz:<br>
+	<textarea name="Opinia" value="Komentarz" rows="8" cols="52"></textarea><br>
+	<br>
+	<input type="submit" value="Wyślij formularz">
+	<input type="reset" value="Wyczyść dane">
+	</form>
+	</div>
+	<div id="footer" style="background-color: rgb(97, 139, 230); clear: both; text-align: center;">Copyright @ W3Schools.com</div>
+	</div>
+</body>
+</html>
